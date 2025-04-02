@@ -1,0 +1,10 @@
+server:
+  port: 9000
+
+spring:
+  main:
+    allow-circular-references: true
+
+bot:
+  name: ${bot_name}
+  token: ${bot_token}
